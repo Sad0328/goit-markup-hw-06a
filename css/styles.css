@@ -1,6 +1,12 @@
+:root {
+    --title-color: #2E2F42;
+    --text-color: #434455;
+}
+
 body {
-    font-family: 'Roboto', normal;
+    font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
+    color: var(--text-color);
 }
 
 a {
@@ -26,7 +32,7 @@ ul {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .header-logo span {
@@ -37,7 +43,8 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
-    color: #2E2F42;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
 }
 
 .header-menu-link:hover {
@@ -54,7 +61,7 @@ ul {
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 
 }
 .address-menu-contact:hover {
@@ -66,13 +73,13 @@ ul {
 }
 /* ---------------hero--------------------------- */
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--title-color);
 }
 
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 10.7;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -82,8 +89,8 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
-        
-    
+    background-color: #4D5AE5;
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
@@ -101,7 +108,7 @@ ul {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--title-color);
 }
 
 .softskills-item-text {
@@ -109,7 +116,7 @@ ul {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--text-color);
 }
 
 /* ------------------What are we doing------------------------------------- */
@@ -123,10 +130,12 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 /* ----------------team----------------------------- */
-.team {}
+.team {
+    background-color: #F4F4FD
+}
 
 .team-title {
     font-weight: 700;
@@ -135,19 +144,21 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .team-list {}
 
-.team-subtitle {}
+.team-subtitle {
+    background-color: #FFFFFF
+}
 
 .team-item {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .team-item-text {
@@ -155,7 +166,7 @@ ul {
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
 
 /* ------------------------footer-------------------- */
@@ -165,7 +176,7 @@ ul {
 }
 
 .footer-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -173,11 +184,12 @@ ul {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color:#F4F4FD;
+    text-transform: uppercase
 }
 
 .footer-logo span {
-    color: #4D5AE5;
+    color:#4D5AE5;
 }
 
 .footer-text {
@@ -221,7 +233,7 @@ ul {
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .project-item-text {
@@ -229,5 +241,5 @@ ul {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
