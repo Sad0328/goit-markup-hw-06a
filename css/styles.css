@@ -13,7 +13,9 @@ a {
     text-decoration: none;
 }
 
-
+ul {
+    list-style-type: none;
+}
 
 .link {
     text-decoration: none;
@@ -213,7 +215,7 @@ a {
     letter-spacing: 0.04em;
     color: #4D5AE5;
   }
-  span {
+ .header-logo span {
       color: #FFFFFF;
   }
 
