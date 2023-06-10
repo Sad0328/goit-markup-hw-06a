@@ -146,7 +146,9 @@ ul {
     color: var(--title-color);
 }
 
-.team-list {}
+.team-list {
+
+}
 
 .team-subtitle {
     background-color: #FFFFFF
