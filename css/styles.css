@@ -269,4 +269,10 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--text-color);
+
+}
+
+.footer-logo-studio span {
+      color: #F4F4FD;
+
 }
