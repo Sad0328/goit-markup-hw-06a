@@ -214,9 +214,9 @@ ul {
     text-transform: uppercase;
     color:#4d5ae5;
 }
-.header-logo span {
-    color: #f4f4fd;
-}
+/* .header-logo span { */
+    /* color: #f4f4fd; */
+/* } */
 .link {}
 
 .header-menu-list {}
