@@ -247,9 +247,9 @@ ul {
     letter-spacing: 0.04em;
     color: #4D5AE5;
   }
- .header-logo span {
-      color: #FFFFFF;
-  }
+ /* .header-logo span { */
+      /* color: #FFFFFF; */
+  /* } */
 
 .projects {}
 
