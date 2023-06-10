@@ -87,6 +87,7 @@ ul {
 }
 
 .hero-btn {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
@@ -96,11 +97,17 @@ ul {
 }
 
 /*--------------------------------- softskills--------------------------- */
-.softskills {}
+.softskills {
 
-.softskills-list {}
+}
 
-.softskills-item {}
+.softskills-list {
+
+}
+
+.softskills-item {
+
+}
 
 .softskills-subtitle {
     font-weight: 500;
@@ -120,7 +127,9 @@ ul {
 
 /* ------------------What are we doing------------------------------------- */
 
-.works {}
+.works {
+
+}
 
 .works-title {
     font-weight: 700;
@@ -203,9 +212,13 @@ ul {
 /* -----------------------------filtr----------------------- */
 /*       */
 
-.header {}
+.header {
 
-.header-navigation {}
+}
+
+.header-navigation {
+
+}
 
 .header-logo {
     font-family: 'Raleway', sans-serif;
@@ -219,27 +232,49 @@ ul {
 /* .header-logo span { */
     /* color: #f4f4fd; */
 /* } */
-.link {}
+.link {
 
-.header-menu-list {}
+}
 
-.header-menu-item {}
+.header-menu-list {
 
-.header-menu-link {}
+}
 
-.header-address {}
+.header-menu-item {
 
-.address {}
+}
 
-.address-menu {}
+.header-menu-link {
 
-.address-menu-contact {}
+}
 
-  .filtr {}
+.header-address {
 
-  .filtr-list {}
+}
 
-  .filtr-button {}
+.address {
+
+}
+
+.address-menu {
+
+}
+
+.address-menu-contact {
+
+}
+
+  .filtr {
+
+  }
+
+  .filtr-list {
+
+  }
+
+  .filtr-button {
+
+  }
 
   .filtr-button-text {
     font-family: "Roboto", sans-serif;
@@ -254,9 +289,13 @@ ul {
       /* color: #FFFFFF; */
   /* } */
 
-.projects {}
+.projects {
 
-.projects-item {}
+}
+
+.projects-item {
+
+}
 
 .project-subtitle {
     font-weight: 500;
