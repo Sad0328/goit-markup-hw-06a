@@ -37,7 +37,7 @@ ul {
 }
 
 .header-logo-link span {
-    color: var(--title-color);
+    color: #4d5ae5;
 }
 
 .header-menu-link {
@@ -296,7 +296,7 @@ background-color: #404BBF;
     background-color: #F4F4FD;
 
   }
-  .filtr-button-text:hover {
+  /* .filtr-button-text:hover {
     color: #FFFFFF;
     background-color: #404BBF; 
 
@@ -306,7 +306,7 @@ background-color: #404BBF;
     color: #FFFFFF;
     background-color: #404BBF;
 
-   }
+   } */
 
  /* .header-logo span { */
       /* color: #FFFFFF; */
