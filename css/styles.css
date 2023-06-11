@@ -1,7 +1,7 @@
 :root {
     --title-color: #2e2f42;
     --text-color: #434455;
-    --logo-color: #4d5ae5;
+    --navigation-color: #4d5ae5;
     }
 
 body {
@@ -27,19 +27,20 @@ ul {
 }
 /* --------------------header --------------------*/
 
-.header-navigation {
+.header-navigation-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--navigation-color);
+    text-decoration: none;
     
 }
 
 .header-logo-link span {
-    color: var(--logo-color);
+    color: var(--navigation-color);
     text-decoration: none;
 }
 
