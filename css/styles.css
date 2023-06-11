@@ -69,11 +69,11 @@ color: var(--title-color);
 
 
 .header-address {
-
+    font-style: normal;
 }
 
 .header-address-list {
-    font-style: normal;
+    
 
 }
 
