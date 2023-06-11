@@ -116,7 +116,10 @@ color: var(--title-color);
     background: var(--blue-color);
 
 }
-.header-menu-link:hover,
+.header-menu-link:hover {
+        background-color: #404BBF;
+        cursor: pointer;
+    }
 .header-menu-link:focus {
     background-color: #404BBF;
     cursor: pointer;
