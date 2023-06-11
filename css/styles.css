@@ -111,6 +111,7 @@ color: var(--title-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
+    letter-spacing: 0.04em;
     color: var(--hero-color);
     background: var(--blue-color);
 
@@ -118,6 +119,7 @@ color: var(--title-color);
 .header-menu-link:hover,
 .header-menu-link:focus {
     background-color: #404BBF;
+    cursor: pointer;
 }
 
 
@@ -220,7 +222,7 @@ color: var(--title-color);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.50;
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
@@ -231,5 +233,7 @@ color: var(--title-color);
 }
 
 .footer-text {
+    color: #F4F4FD;
+    letter-spacing: 0.02em
 
 }
