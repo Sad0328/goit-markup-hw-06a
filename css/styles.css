@@ -10,8 +10,8 @@ var(--blue-color); */
 
 body {
     font-family:'Roboto', sans-serif;
-    color: #434455;
-    background: var(--hero-color);;
+    color:#434455;
+    background: var(--hero-color);
 }
 
 .link {
@@ -33,13 +33,14 @@ body {
 }
 
 .header-logo {
-font-family: 'Raleway';
+font-family: 'Raleway'sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color: var(--blue-color);
+text-transform: uppercase;
 }
 .header-logo span {
 color: var(--title-color);
@@ -67,6 +68,7 @@ color: var(--title-color);
 }
 
 .header-address-list {
+    font-style: normal;
 
 }
 
