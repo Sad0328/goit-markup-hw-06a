@@ -91,11 +91,14 @@ color: var(--title-color);
 }
 
 .hero-title {
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: var(--hero-color);;
+    color: var(--hero-color);
+    text-align: center;
+    background-color: #4D5AE5;
 }
 
 .hero-btn {
