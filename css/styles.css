@@ -304,7 +304,7 @@ color: var(--title-color);
     cursor: pointer;
 }
 
-.filtr-buttont-text:focus {
+.filtr-button-text:focus {
     background-color: #404BBF;
     color: #FFFFFF;
     cursor: pointer;
