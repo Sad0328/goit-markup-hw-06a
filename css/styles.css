@@ -293,7 +293,21 @@ background-color: #404BBF;
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
+    background-color: #F4F4FD;
+
   }
+  .filtr-button-text:hover {
+    color: #FFFFFF;
+    background-color: #404BBF; 
+
+  }
+
+   .filtr-button-text:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+
+   }
+
  /* .header-logo span { */
       /* color: #FFFFFF; */
   /* } */
