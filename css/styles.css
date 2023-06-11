@@ -98,6 +98,14 @@ color: var(--title-color);
     background: var(--title-color);
 
 }
+.hero:focus {
+    background-color: #404BBF;
+
+}
+.hero:hover {
+    background-color: #404BBF;
+
+}
 
 .hero-title {
     font-family: 'Roboto', sans-serif;
@@ -118,6 +126,7 @@ color: var(--title-color);
     letter-spacing: 0.04em;
     color: var(--hero-color);
     background: var(--blue-color);
+    cursor: pointer;
 
 }
 .header-menu-link:hover {
