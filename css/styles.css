@@ -297,7 +297,6 @@ color: var(--title-color);
     letter-spacing: 0.04em;
     color: #4d5ae5;
     background-color: #F4F4FD;
-    text-decoration: none;
 }
 .filtr-button-text:hover {
     background-color: #404BBF;
