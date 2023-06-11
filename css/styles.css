@@ -1,7 +1,8 @@
 :root {
     --title-color: #2e2f42;
     --text-color: #434455;
-}
+    --logo-color: #4d5ae5;
+    }
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -37,7 +38,7 @@ ul {
 }
 
 .header-logo-link span {
-    color: #4d5ae5;
+    color: var(--logo-color);
 }
 
 .header-menu-link {
