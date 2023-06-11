@@ -309,7 +309,9 @@ color: var(--title-color);
 .projects-list {
     
 }
-.projects-item {}
+.projects-item {
+    
+}
 
 .project-subtitle {
     font-weight: 500;
