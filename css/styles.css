@@ -2,7 +2,7 @@
     --title-color: #2e2f42;
     --text-color: #434455;
     --navigation-color: #4d5ae5;
-    }
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -25,9 +25,10 @@ ul {
 .list {
     text-decoration: none;
 }
+
 /* --------------------header --------------------*/
 
-.header-navigation-list {
+.header-navigation {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -36,7 +37,7 @@ ul {
     text-transform: uppercase;
     color: var(--navigation-color);
     text-decoration: none;
-    
+
 }
 
 .header-logo-link {
@@ -73,6 +74,7 @@ ul {
     color: var(--text-color);
 
 }
+
 .address-menu-contact:hover {
     color: #404BBF;
 }
@@ -80,6 +82,7 @@ ul {
 .address-menu-contact:focus {
     color: #404BBF;
 }
+
 /* ---------------hero--------------------------- */
 .hero {
     background-color: var(--title-color);
@@ -105,47 +108,39 @@ ul {
 }
 
 .hero-btn:hover {
-background-color: #404BBF;
+    background-color: #404BBF;
 }
 
 .hero-btn:focus {
-background-color: #404BBF;
+    background-color: #404BBF;
 }
 
 /*--------------------------------- softskills--------------------------- */
-.softskills {
+.softskills {}
 
-}
+.softskills-list {}
 
-.softskills-list {
-
-}
-
-.softskills-item {
-
-}
+.softskills-item {}
 
 .softskills-subtitle {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--title-color);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
 }
 
 .softskills-item-text {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 
 /* ------------------What are we doing------------------------------------- */
 
-.works {
-
-}
+.works {}
 
 .works-title {
     font-weight: 700;
@@ -156,6 +151,7 @@ background-color: #404BBF;
     text-transform: capitalize;
     color: var(--title-color);
 }
+
 /* ----------------team----------------------------- */
 .team {
     background-color: #F4F4FD
@@ -171,9 +167,7 @@ background-color: #404BBF;
     color: var(--title-color);
 }
 
-.team-list {
-
-}
+.team-list {}
 
 .team-subtitle {
     background-color: #FFFFFF
@@ -208,12 +202,12 @@ background-color: #404BBF;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#4D5AE5;
+    color: #4D5AE5;
     text-transform: uppercase
 }
 
 .footer-logo span {
-    color:#F4F4FD;
+    color: #F4F4FD;
 }
 
 .footer-text {
@@ -228,9 +222,7 @@ background-color: #404BBF;
 /* -----------------------------filtr----------------------- */
 /*       */
 
-.header {
-
-}
+.header {}
 
 /* .header-navigation { */
 
@@ -243,57 +235,37 @@ background-color: #404BBF;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#4d5ae5;
+    color: #4d5ae5;
 }
+
 /* .header-logo span { */
-    /* color: #f4f4fd; */
+/* color: #f4f4fd; */
 /* } */
-.link {
+.link {}
 
-}
+.header-menu-list {}
 
-.header-menu-list {
+.header-menu-item {}
 
-}
+.header-menu-link {}
 
-.header-menu-item {
+.header-address {}
 
-}
+.address {}
 
-.header-menu-link {
+.address-menu {}
 
-}
+.address-menu-contact {}
 
-.header-address {
+.filtr {}
 
-}
-
-.address {
-
-}
-
-.address-menu {
-
-}
-
-.address-menu-contact {
-
-}
-
-  .filtr {
-
-  }
-
-  .filtr-list {
+.filtr-list {
     list-style: none
+}
 
-  }
+.filtr-button {}
 
-  .filtr-button {
-
-  }
-
-  .filtr-button-text {
+.filtr-button-text {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -303,8 +275,9 @@ background-color: #404BBF;
     color: #4D5AE5;
     background-color: #F4F4FD;
 
-  }
-  /* .filtr-button-text:hover {
+}
+
+/* .filtr-button-text:hover {
     color: #FFFFFF;
     background-color: #404BBF; 
 
@@ -316,17 +289,13 @@ background-color: #404BBF;
 
    } */
 
- /* .header-logo span { */
-      /* color: #FFFFFF; */
-  /* } */
+/* .header-logo span { */
+/* color: #FFFFFF; */
+/* } */
 
-.projects {
+.projects {}
 
-}
-
-.projects-item {
-
-}
+.projects-item {}
 
 .project-subtitle {
     font-weight: 500;
@@ -346,6 +315,6 @@ background-color: #404BBF;
 }
 
 .footer-logo-studio span {
-      color: #F4F4FD;
+    color: #F4F4FD;
 
 }
