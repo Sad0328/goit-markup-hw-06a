@@ -107,11 +107,17 @@ color: var(--title-color);
     font-size: 16px;
     line-height: 1.50;
     color: var(--hero-color);
+    background: var(--blue-color);
 
 }
+.header-menu-link:hover,
+.header-menu-link:focus {
+    background-color: #404BBF;
+}
+
 
 .softskills {
-    background: var(--hero-color);5;
+    background: var(--hero-color);
 
 }
 
@@ -128,7 +134,7 @@ color: var(--title-color);
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-    color: var(--title-color);;
+    color: var(--title-color);
 
 }
 
@@ -201,7 +207,7 @@ color: var(--title-color);
 
 
 .footer {
-    background: var(--title-color);;
+    background: var(--title-color);
 }
 
 .footer-logo {
@@ -218,4 +224,6 @@ color: var(--title-color);
     color: #F4F4FD;
 }
 
-.footer-text {}
+.footer-text {
+
+}
