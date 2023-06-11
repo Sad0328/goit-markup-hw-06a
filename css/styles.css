@@ -275,23 +275,16 @@ color: var(--title-color);
 
 
 .filtr {
-    list-style: none;
+ 
 }
 
 .list {}
 
 .filtr-button {
     color: #4d5ae5;
-    background-color:#F4F4FD;
+    
 }
-.filtr-button:hover {
-    background-color: #404BBF;
-    cursor: pointer;
-}
-.filtr-button:focus {
-    background-color: #404BBF;
-    cursor: pointer;
-}
+
 
 .filtr-button-text {
     font-family: 'Roboto', sans-serif;
@@ -303,14 +296,25 @@ color: var(--title-color);
     text-align: center;
     letter-spacing: 0.04em;
     color: #4d5ae5;
+    background-color: #F4F4FD;
+}
+.filtr-button-text:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
+.filtr-buttont-text:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
 .projects-list {
     
 }
 .projects-item {
-    
+
 }
 
 .project-subtitle {
