@@ -96,6 +96,14 @@ ul {
     letter-spacing: 0.04em;
 }
 
+.hero-btn:hover {
+color: #404BBF;
+}
+
+.hero-btn:focus {
+color: #404BBF;
+}
+
 /*--------------------------------- softskills--------------------------- */
 .softskills {
 
