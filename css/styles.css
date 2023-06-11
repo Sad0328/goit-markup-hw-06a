@@ -302,9 +302,13 @@ color: var(--title-color);
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: #4d5ae5;
 }
 
+
+.projects-list {
+    
+}
 .projects-item {}
 
 .project-subtitle {}
