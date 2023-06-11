@@ -40,7 +40,7 @@ ul {
 }
 
 .header-logo-link span {
-    color: #2e2f42;
+    color: var(--navigation-color);
     text-decoration: none;
 }
 
