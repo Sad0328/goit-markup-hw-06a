@@ -46,7 +46,7 @@ ul {
 }
 
 .header-logo-link span {
-    
+    color: var(--title-color);
     
 }
 
