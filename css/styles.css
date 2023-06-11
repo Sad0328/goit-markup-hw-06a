@@ -39,6 +39,10 @@ ul {
     
 }
 
+.header-logo-link {
+    color: var(--navigation-color);
+}
+
 .header-logo-link span {
     color: var(--navigation-color);
     text-decoration: none;
