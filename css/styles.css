@@ -274,13 +274,27 @@ color: var(--title-color);
 
 
 
-.filtr {}
+.filtr {
+    list-style: none;
+}
 
 .list {}
 
-.filtr-button {}
+.filtr-button {
+    color: #4d5ae5;
+    background-color:#F4F4FD;
+}
+.filtr-button:hover {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.filtr-button:focus {
+    background-color: #404BBF;
+    cursor: pointer;
+}
 
 .filtr-button-text {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
