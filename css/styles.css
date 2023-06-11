@@ -130,6 +130,12 @@ color: var(--title-color);
     cursor: pointer;
 
 }
+.hero-btn:hover {
+    background-color: #404BBF;
+}
+.hero-btn:focus {
+    background-color: #404BBF;
+}
 .header-menu-link:hover {
         background-color: #404BBF;
         cursor: pointer;
