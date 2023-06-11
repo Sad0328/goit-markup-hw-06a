@@ -36,7 +36,7 @@ ul {
     color: #4D5AE5;
 }
 
-.header-logo span {
+.header-logo-link span {
     color: var(--title-color);
 }
 
