@@ -132,9 +132,11 @@ color: var(--title-color);
 }
 .hero-btn:hover {
     background-color: #404BBF;
+    cursor: pointer;
 }
 .hero-btn:focus {
     background-color: #404BBF;
+    cursor: pointer;
 }
 .header-menu-link:hover {
         background-color: #404BBF;
