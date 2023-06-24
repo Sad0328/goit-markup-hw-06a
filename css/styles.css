@@ -72,6 +72,16 @@ color: var(--title-color);
     cursor: pointer;
 }
 
+.link:hover {
+    color: #404bbf;
+    cursor: pointer;
+}
+
+.link:focus {
+    color: #404bbf;
+    cursor: pointer;
+}
+
 .header-address {
     font-style: normal;
 }
