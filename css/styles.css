@@ -16,7 +16,7 @@ body {
 
 .link {
     text-decoration: none;
-    /* color: #404bbf; */
+    
 }
 
 .list {
@@ -72,16 +72,6 @@ color: var(--title-color);
     color: #404bbf;
     cursor: pointer;
 }
-
-/* .link:hover {
-    color: #404bbf;
-    cursor: pointer;
-} */
-
-/* .link:focus {
-    color: #404bbf;
-    cursor: pointer;
-} */
 
 .header-address {
     font-style: normal;
