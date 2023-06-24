@@ -63,11 +63,12 @@ color: var(--title-color);
     color: var(--title-color);
 
 }
-.header-menu-link:hover {
+.header-menu-link .link:hover {
         color: #404bbf;
         cursor: pointer;
     }
-.header-menu-link:focus {
+
+.header-menu-link .link:focus {
     color: #404bbf;
     cursor: pointer;
 }
