@@ -118,7 +118,7 @@ color: var(--title-color);
 
 .hero {
     background: var(--title-color);
-
+    padding-top: 188px;
 }
 .hero:focus {
     background-color: #404BBF;
