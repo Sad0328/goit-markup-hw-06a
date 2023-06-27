@@ -8,7 +8,7 @@
 var(--title-color);
 var(--blue-color); */
 
-body {
+.body {
     font-family: 'Roboto', sans-serif;
     color:#434455;
     background: var(--hero-color);
@@ -27,13 +27,19 @@ body {
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
-     padding-right: 15px;
+    padding-right: 15px;
 
 }
 
 .header {
     
+    border-bottom: 1px solid #e7e9fc;
 
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -53,6 +59,8 @@ letter-spacing: 0.03em;
 color: var(--blue-color);
 text-transform: uppercase;
 margin-right: 76px;
+display: flex;
+align-items: center;
 }
 .header-logo span {
 color: var(--title-color);
@@ -183,14 +191,20 @@ color: var(--title-color);
 
 .softskills {
     background: var(--hero-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
 
 }
 
 .softskills-list {
+    display: flex;
+    gap: 24px;
 
 }
 
 .softskills-item {
+    width: calc((100% - 72px) / 4);
+    width calc((100% - 3 * 24px) / 4)
 
 }
 
@@ -200,6 +214,7 @@ color: var(--title-color);
     line-height: 1.20;
     letter-spacing: 0.02em;
     color: var(--title-color);
+    margin-bottom: 8px;
 
 }
 
@@ -209,6 +224,7 @@ color: var(--title-color);
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 8px;
 
 }
 
