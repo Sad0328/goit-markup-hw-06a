@@ -119,6 +119,8 @@ color: var(--title-color);
 .hero {
     background: var(--title-color);
     padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 496px;
 }
 .hero:focus {
     background-color: #404BBF;
@@ -149,6 +151,8 @@ color: var(--title-color);
     color: var(--hero-color);
     background: var(--blue-color);
     cursor: pointer;
+
+    /* display: block; */
 
 }
 .hero-btn:hover {
