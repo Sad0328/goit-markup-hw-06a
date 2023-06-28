@@ -74,6 +74,7 @@ color: var(--title-color);
 
 .header-menu-item {
     margin-right: 40px;
+    
 
 }
 .header-menu-item-last {
@@ -87,6 +88,7 @@ color: var(--title-color);
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--title-color);
+    padding: 24px 0;
 
 }
 .header-menu-link .link:hover {
