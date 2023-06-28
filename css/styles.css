@@ -77,10 +77,8 @@ color: var(--title-color);
     
 
 }
-.header-menu-item-last {
-    margin-right: 0;
 
-}
+
 
 .header-menu-link {
     font-weight: 500;
