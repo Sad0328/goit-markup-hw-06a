@@ -67,10 +67,17 @@ color: var(--title-color);
 }
 
 .header-menu {
+    display: flex;
+    gap: 40px;
 
 }
 
 .header-menu-item {
+    margin-right: 40px;
+
+}
+.header-menu-item-last {
+    margin-right: 0;
 
 }
 
