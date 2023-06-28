@@ -244,6 +244,7 @@ color: var(--title-color);
 }
 
 .projects {
+    padding-bottom: 120px;
 
 }
 
@@ -255,6 +256,10 @@ color: var(--title-color);
     color: var(--title-color);
     text-align: center;
     text-transform: capitalize;
+    display: flex;
+    margin-bottom: 72px;
+    display: flex;
+    gap: 24px
 }
 
 .projects-list {
