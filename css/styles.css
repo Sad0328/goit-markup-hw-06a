@@ -116,11 +116,19 @@ color: var(--title-color);
 }
 
 .header-address-list {
+    display: flex;
+    gap: 40px;
     
 
 }
 
 .header-address-item {
+    margin-right: 40px;
+
+}
+
+.header-address-item2 {
+    margin-right: 0;
 
 }
 
