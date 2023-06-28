@@ -183,7 +183,7 @@ color: var(--title-color);
     background-color:#4d5ae5;
     border-radius: 4px;
     cursor: pointer;
-    /* margin:  */
+    margin: center;
 
 }
 .hero-btn:hover {
