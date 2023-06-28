@@ -263,10 +263,12 @@ color: var(--title-color);
 }
 
 .projects-list {
-    
+    display: flex;
+    gap: 24px;
 }
 
 .projects-item {
+    margin-right: 24px;
 
 }
 
