@@ -211,6 +211,9 @@ color: var(--title-color);
 
 }
 
+.visually-hidden {
+
+}
 .softskills-list {
     display: flex;
     gap: 24px;
@@ -218,9 +221,13 @@ color: var(--title-color);
 }
 
 .softskills-item {
-    width: calc((100% - 72px) / 4);
-    width calc((100% - 3 * 24px) / 4)
+    margin-right: 24px;
+    /* width: calc((100% - 72px) / 4);
+    width calc((100% - 3 * 24px) / 4) */
 
+}
+.softskills-iteml {
+margin-right: 0;
 }
 
 .softskills-subtitle {
