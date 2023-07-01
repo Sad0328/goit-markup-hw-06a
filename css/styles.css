@@ -451,11 +451,16 @@ margin-right: 0;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+    padding-top: 96px; 
+    padding-bottom: 120px; 
+    row-gap: 48px; 
  }
  .filtr-button-text {
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
+    flex-wrap: wrap; 
+     margin-bottom: 48px 
  }
  .filtr-button-text:hover {
     border: 1px solid transparent;
@@ -463,3 +468,6 @@ margin-right: 0;
  .filtr-button-text:focus {
      border: 1px solid transparent;
  }
+.filtr-buttonl {
+    margin-bottom: 0;
+}
