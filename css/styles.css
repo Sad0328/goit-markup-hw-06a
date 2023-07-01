@@ -455,7 +455,11 @@ margin-right: 0;
  .filtr-button-text {
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
+    border-radius: 4px;
  }
  .filtr-button-text:hover {
     border: 1px solid transparent;
+ }
+ .filtr-button-text:focus {
+     border: 1px solid transparent;
  }
