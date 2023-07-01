@@ -224,6 +224,7 @@ color: var(--title-color);
 .softskills-item {
     margin-right: 24px;
     width: 18px;
+    width: calc((100% - 72px) / 4);
     /* width calc((100% - 3 * 24px) / 4) */ 
 
 }
