@@ -417,10 +417,16 @@ margin-right: 0;
 }
 
 .projects-list {
+    flex-wrap: wrap;
+    row-gap: 48px;
     
 }
 .projects-item {
+    margin-bottom: 48px;
 
+}
+.projects-iteml {
+    margin-right: 0;
 }
 
 .project-subtitle {
@@ -454,6 +460,7 @@ margin-right: 0;
     padding-top: 96px; 
     padding-bottom: 120px; 
     row-gap: 48px; 
+    width: 16px;
  }
  .filtr-button-text {
     padding: 12px 24px;
