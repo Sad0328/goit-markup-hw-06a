@@ -26,8 +26,7 @@ var(--blue-color); */
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
 
 }
 
@@ -438,5 +437,23 @@ margin-right: 0;
     color: #434455;
     background: #FFFFFF;
 }
+ .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+ }
+ .visually-hidden {
 
-
+ }
+ .filtr {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+ }
+ .filtr-button-text {
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+ }
+ .filtr-button-text:hover {
+    border: 1px solid transparent;
+ }
