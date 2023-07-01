@@ -307,6 +307,8 @@ margin-right: 0;
 .team-item {
     background-color: #FFFFFF;
     margin-right: 24px;
+    width: 18px;
+    border-radius: 0px 0px 4px 4px;
 }
 .team-iteml {
     margin-right: 0;
