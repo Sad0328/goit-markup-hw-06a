@@ -423,6 +423,7 @@ margin-right: 0;
 .projects-list {
     flex-wrap: wrap;
     row-gap: 48px;
+    width: calc((100% - 48px) / 3);
     
 }
 .projects-item {
@@ -431,7 +432,7 @@ margin-right: 0;
 }
 .projects-iteml {
     margin-right: 0;
-    width: calc((100% - 48px) / 3);
+    
 }
 
 .project-subtitle {
