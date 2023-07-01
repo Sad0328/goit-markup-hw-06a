@@ -223,7 +223,7 @@ color: var(--title-color);
 
 .softskills-item {
     margin-right: 24px;
-    width: 18;
+    width: 18px;
     
     /* width calc((100% - 3 * 24px) / 4) */ 
 
