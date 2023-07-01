@@ -286,7 +286,9 @@ margin-right: 0;
     padding: 120px 0;
 
 }
-
+.container-team {
+    padding: 32px 16px;
+}
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -296,6 +298,7 @@ margin-right: 0;
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px;
+  
 }
 
 .team-list {
@@ -320,6 +323,8 @@ margin-right: 0;
     line-height: 1.20;
     letter-spacing: 0.02em;
     color: var(--title-color);
+    text-aling: center;
+    margin-bottom: 8px;
 
 }
 
@@ -329,6 +334,7 @@ margin-right: 0;
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #434455;
+    text-aling: center;
 
 }
 
