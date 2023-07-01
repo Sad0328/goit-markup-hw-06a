@@ -20,6 +20,7 @@ var(--blue-color); */
 }
 
 .list {
+
     list-style-type: none;
 }
 .container {
@@ -27,6 +28,7 @@ var(--blue-color); */
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    
 
 }
 
