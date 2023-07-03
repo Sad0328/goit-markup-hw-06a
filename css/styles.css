@@ -503,9 +503,11 @@ margin-right: 0;
  }
  .filtr-button-text:hover {
     border: 1px solid transparent;
+    cursor: pointer;
  }
  .filtr-button-text:focus {
      border: 1px solid transparent;
+    cursor: pointer;
  }
 .filtr-buttonl {
     margin-bottom: 0;
