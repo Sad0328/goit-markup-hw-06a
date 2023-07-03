@@ -453,6 +453,7 @@ margin-right: 0;
 .projects-list {
     flex-wrap: wrap;
     row-gap: 48px;
+    gap: 24px;
     /* width: calc((100% - 48px) / 3); */
     
 }
