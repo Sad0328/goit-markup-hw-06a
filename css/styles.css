@@ -484,8 +484,7 @@ margin-right: 0;
     background: #FFFFFF;
 }
  .portfolio {
-    padding-top: 96px;
-    padding-bottom: 120px;
+    padding: 96px 0 120px 0;
  }
  .visually-hidden {
 
