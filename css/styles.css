@@ -236,7 +236,6 @@ color: var(--title-color);
 
 .softskills-item {
     margin-right: 24px;
-    /* width: 464px; */
     flex-basis: calc((100% - 48px) / 3);
     /* ------------------------------------------------------------------------------ 18 */
     /* width calc((100% - 3 * 24px) / 4) */ 
@@ -292,7 +291,7 @@ margin-right: 0;
 
 .projects-item {
     margin-right: 24px;
-    width: 16px;
+    width: calc((100% - 48px) / 3);
     
 
 }
