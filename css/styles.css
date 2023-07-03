@@ -241,9 +241,9 @@ color: var(--title-color);
     /* width calc((100% - 3 * 24px) / 4) */ 
 
 }
-.softskills-iteml {
+/* .softskills-iteml {
 margin-right: 0;
-}
+} */
 
 .softskills-subtitle {
     font-weight: 500;
@@ -338,6 +338,7 @@ margin-right: 0;
     margin-right: 24px;
     width: 18px;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 .team-iteml {
     margin-right: 0;
@@ -448,7 +449,7 @@ margin-right: 0;
 .projects-list {
     flex-wrap: wrap;
     row-gap: 48px;
-    width: calc((100% - 48px) / 3);
+    /* width: calc((100% - 48px) / 3); */
     
 }
 .projects-item {
@@ -456,10 +457,10 @@ margin-right: 0;
     width: 18;
 
 }
-.projects-iteml {
+/* .projects-iteml {
     margin-right: 0;
     
-}
+} */
 
 .project-subtitle {
     font-weight: 500;
@@ -490,10 +491,10 @@ margin-right: 0;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
-    padding-top: 96px; 
+    /* padding-top: 96px; 
     padding-bottom: 120px; 
     row-gap: 48px; 
-    width: 16px;
+    width: 16px; */
  }
  .filtr-button-text {
     padding: 12px 24px;
