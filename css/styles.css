@@ -290,7 +290,7 @@ margin-right: 0;
     display: flex;
     margin-bottom: 72px;
     display: flex;
-    gap: 24px;
+    /* gap: 24px; */
 }
 
 .projects-list {
