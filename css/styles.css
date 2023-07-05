@@ -464,8 +464,8 @@ color: var(--title-color);
 .app-list {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
     row-gap: 48px;
-    
 }
 
 .app-item {
