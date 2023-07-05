@@ -294,7 +294,7 @@ margin-right: 0;
     display: flex;
     margin-bottom: 72px;
     display: flex;
-    gap: 24px
+    gap: 24px;
 }
 
 .projects-list {
@@ -428,6 +428,10 @@ margin-right: 0;
 
 
 .filtr-button {
+    display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 72px;
    
 }
 
