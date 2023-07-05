@@ -226,7 +226,16 @@ color: var(--title-color);
 }
 
 .visually-hidden {
-
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .softskills-list {
     display: flex;
@@ -256,7 +265,7 @@ margin-right: 0;
 }
 
 .visually-hidden {
-    
+
 }
 
 .softskills--item-text {
