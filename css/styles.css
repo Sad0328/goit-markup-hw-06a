@@ -449,11 +449,11 @@ color: var(--title-color);
     
 }
 
-.projects-list {
+/* .projects-list {
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
-}
+} */
 
 .projects-item {
     margin-bottom: 48px;
