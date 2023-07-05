@@ -244,15 +244,9 @@ color: var(--title-color);
 }
 
 .softskills-item {
-    /* margin-right: 24px; */
     flex-basis: calc((100% - 48px) / 3);
-    /* ------------------------------------------------------------------------------ 18 */
-    /* width calc((100% - 3 * 24px) / 4) */ 
-
+   
 }
-/* .softskills-iteml {
-margin-right: 0;
-} */
 
 .softskills-subtitle {
     font-weight: 500;
@@ -290,7 +284,6 @@ margin-right: 0;
     display: flex;
     margin-bottom: 72px;
     display: flex;
-    /* gap: 24px; */
 }
 
 .projects-list {
@@ -302,14 +295,6 @@ margin-right: 0;
     /* margin-right: 24px;
     width: calc((100% - 48px) / 3); */
 }
-
-/* }
-.projects-iteml {
-    margin-right: 0;
-
-
-} */
-
 
 .team {
     background: #F4F4FD;
@@ -349,9 +334,6 @@ margin-right: 0;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
 }
-/* .team-iteml {
-    margin-right: 0;
-} */
 
 .team-subtitle {
     font-weight: 500;
@@ -361,7 +343,6 @@ margin-right: 0;
     color: var(--title-color);
     text-align: center;
     margin-bottom: 8px;
-    /* padding: 32px 16px 32px; */
     display: flex;
 
 }
@@ -374,8 +355,7 @@ margin-right: 0;
     color: #434455;
     text-align: center;
     display: flex;
-    /* padding: 32px 16px 32px; */
-
+    
 }
 
 
@@ -467,19 +447,13 @@ margin-right: 0;
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
-    /* gap: 24px; */
-    /* width: calc((100% - 48px) / 3); */
-    
 }
+
 .projects-item {
     margin-bottom: 48px;
     width: calc((100% - 48px) / 3);
 
 }
-/* .projects-iteml {
-    margin-right: 0;
-    
-} */
 
 .project-subtitle {
     font-weight: 500;
