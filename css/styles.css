@@ -438,7 +438,9 @@ justify-content: center;
     background-color: #404BBF;
     cursor: pointer;
 }
-
+.scg-icon {
+    fill: #f4f4fd;
+}
 
 .footer {
     background: var(--title-color);
