@@ -255,15 +255,18 @@ color: var(--title-color);
     gap: 24px;
 
 }
+.svg-softskills {
+    
+}
 
 .icons-softskills {
     display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 112px;
-        background-color: #f4f4fd;
-        border-radius: 4px;
-        margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .softskills-item {
