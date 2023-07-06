@@ -342,7 +342,7 @@ color: var(--title-color);
     border-top: none;
 }
 .container-team {
-    padding: 32px 16px;
+    padding: 32px 0;
     /* width: calc((100% - 72px) / 4); */
 }
 .team-title {
@@ -367,9 +367,7 @@ color: var(--title-color);
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16),0px 2px 1px rgba(46, 47, 66, 0.08);
     
 }
 
@@ -394,6 +392,37 @@ color: var(--title-color);
     text-align: center;
     display: flex;
     
+}
+.list-social {
+    display: flex;
+        justify-content: center;
+        gap: 24px;
+}
+
+.social-connect {
+    width: 40px;
+    height: 40px;
+
+}
+
+
+.inst {
+width: 100%;
+height: 100%;
+background-color:#4d5ae5;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
+.inst:hover {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.inst:focus {
+    background-color: #404BBF;
+    cursor: pointer;
 }
 
 
