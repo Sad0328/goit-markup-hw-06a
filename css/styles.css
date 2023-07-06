@@ -92,8 +92,7 @@ color: var(--title-color);
 
 .header-menu-item {
     margin-right: 40px;
-    position: relative; 
-    color: #404bbf;
+    
     
 
 }
@@ -107,6 +106,8 @@ color: var(--title-color);
     letter-spacing: 0.02em;
     color: var(--title-color);
     padding: 24px 0;
+    position: relative;
+    color: #404bbf;
 
 }
 .header-menu-link .link:hover {
