@@ -674,6 +674,19 @@ justify-content: center;
     letter-spacing: 0.02em;
     color: #434455;
     background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    ь width: 100%;
+    transform: translateY(100%);
+    ь transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App */
+
 }
 
 .app-url {
@@ -686,7 +699,10 @@ justify-content: center;
 }
 
 
-
+.app-portfolio {
+position: relative;
+overflow: hidden;
+}
 
 
 
