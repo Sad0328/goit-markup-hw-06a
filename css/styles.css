@@ -272,8 +272,19 @@ color: var(--title-color);
 .svg-softskills {
 
 }
-
+/* 
 .icons-softskills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px; 
+}
+*/
+
+.softskills-block {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -282,6 +293,7 @@ color: var(--title-color);
     border-radius: 4px;
     margin-bottom: 8px;
 }
+
 
 .softskills-item {
     flex-basis: calc((100% - 48px) / 3);
