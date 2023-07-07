@@ -715,6 +715,10 @@ justify-content: center;
 
 }
 
+.app-item-text:hover {
+    transform: translateY(0%);
+}
+
 .app-url {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -761,9 +765,10 @@ justify-content: center;
     overflow: hidden;
 }
 
-.app-item-text:hover {
-    transform: translateY(0%);
+.app-item-text {
+
 }
+
 
 
 
