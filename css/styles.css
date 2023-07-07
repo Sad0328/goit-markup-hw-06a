@@ -761,7 +761,7 @@ justify-content: center;
     overflow: hidden;
 }
 
-.app-item-text {
+.app-item-text:hover {
     transform: translateY(0%);
 }
 
