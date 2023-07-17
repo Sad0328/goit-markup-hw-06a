@@ -545,7 +545,7 @@ cursor: pointer;
 }
 
 
-.list-costumers-link:focus {
+.list-costumers-link:focus .svg-icon-costumers {
 border-color: #404bbf;
 color: #404bbf;
 cursor: pointer;
