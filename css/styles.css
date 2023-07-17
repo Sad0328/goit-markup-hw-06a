@@ -12,6 +12,8 @@ var(--blue-color); */
     font-family: 'Roboto', sans-serif;
     color:#434455;
     background: var(--hero-color);
+    margin: 0;
+    font-style: normal;
 }
 
 img {
@@ -29,6 +31,15 @@ a {
     text-decoration: none;
 }
 
+p, h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    font-family: inherit;
+}
+
 .link {
         text-decoration: none;
         color: var(--title-color);
@@ -43,10 +54,12 @@ a {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
 }
 
 .header {
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
      box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
@@ -153,7 +166,9 @@ color: var(--title-color);
 }
 
 .header-address-item {
-    margin-right: 40px;
+    margin: 40px 40px 40px 40px;
+    padding: 24px 32px 24px 34px;
+    gap: 40px;
     
 
 }
@@ -177,13 +192,23 @@ color: var(--title-color);
 
 .hero {
     background: var(--title-color);
-    padding: 188px 0;
+    padding: 0 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    width: 1440px;
+    height: 600px;
 }
+
+/* .footer {
+    background: var(--title-color);
+    padding: 100px 0;
+    color: #2e2f42;
+    margin-bottom: 72px; */
+
+
 .hero:focus {
     background-color: #404BBF;
 
@@ -480,10 +505,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 .costumers-title {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     color: #2e2f42;
-    margin-bottom: 72px;
+    
 }
 
 .list-costumers {
@@ -513,14 +539,15 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
 
 .list-costumers-link:hover {
 border-color: #404bbf;
-    color: #404bbf;
-    cursor: pointer;
+color: #404bbf;
+cursor: pointer;
 }
 
 
 .list-costumers-link:focus {
 border-color: #404bbf;
-    color: #404bbf;
+color: #404bbf;
+cursor: pointer;
     
 }
 
@@ -621,10 +648,14 @@ justify-content: center;
     max-width: 264px;
     margin-bottom: 16px;
 
+
 }
 
 
-
+.footer-url {
+    width: 40px;
+    height: 40px;
+}
 
 
 
@@ -736,7 +767,7 @@ justify-content: center;
 
 .container-list-app {
     position: relative;
-        overflow: hidden;
+    overflow: hidden;
 }
 
 .image-list {
