@@ -520,7 +520,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .list-costumers-item {
 width: calc((100% - 120px) / 6);
 height: 88px;
-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -533,8 +532,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
     align-items: center;
     justify-content: center;
     color: #8e8f99;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
 
 
 .list-costumers-link:hover {
@@ -553,6 +554,7 @@ cursor: pointer;
 
  .svg-icon-costumers {
     fill: currentColor;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 
