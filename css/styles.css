@@ -613,7 +613,7 @@ justify-content: center;
     cursor: pointer;
 
 }
-.footer-url:focus {
+.footer-url:focus .svg-icon-footer {
     background-color: #31d0aa;
     
 
