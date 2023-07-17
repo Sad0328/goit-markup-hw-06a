@@ -539,7 +539,7 @@ height: 88px;
 
 
  .svg-icon-costumers {
-    fill: currentColor;
+    fill: #8e8f99;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .list-costumers-link:hover {
@@ -607,18 +607,21 @@ align-items: center;
 justify-content: center;
 }
 
+.svg-icon-footer {
+    fill: #f4f4fd;
+
+}
+
+
 .footer-url:hover {
     background-color: #31d0aa;
     cursor: pointer;
 
 }
+
 .footer-url:focus .svg-icon-footer {
     background-color: #31d0aa;
-    
 
-}
-.svg-icon-footer {
-    fill: #f4f4fd;
 
 }
 
