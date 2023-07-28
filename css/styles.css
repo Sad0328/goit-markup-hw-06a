@@ -217,15 +217,15 @@ var(--blue-color); */
      /* width: 1440px; */
      height: 600px;
      margin: 0 auto;
-
-     background-color: var(--title-color);
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     /* background-color: var(--title-color); */
      padding: 188px 0;
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
          url(../images/img-name.jpeg), url(../images/people-office.jpg);
      max-width: 1440px;
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
+    
 
 
  }
@@ -602,6 +602,7 @@ var(--blue-color); */
  .list-costumers-link:hover {
      border-color: #404bbf;
      color: #404bbf;
+     cursor: pointer;
 
  }
 
@@ -609,6 +610,7 @@ var(--blue-color); */
  .list-costumers-link:focus .svg-icon-costumers {
      border-color: #404bbf;
      color: #404bbf;
+    cursor: pointer;
 
 
  }
@@ -686,15 +688,20 @@ var(--blue-color); */
  .footer-url:hover {
      background-color: #31d0aa;
      cursor: pointer;
+     
 
  }
+ .footer-url:focus {
+     background-color: #31d0aa;
+     cursor: pointer;
+    }
 
- .footer-url:focus .svg-icon-footer {
+ /* .footer-url:focus .svg-icon-footer {
      background-color: #31d0aa;
     cursor: pointer;
 
 
- }
+ } */
 
  .footer-logo {
      /* width: 1440px;
