@@ -214,7 +214,7 @@ var(--blue-color); */
 
 
  .hero {
-     width: 1440px;
+     /* width: 1440px; */
      height: 600px;
      margin: 0 auto;
 
@@ -222,7 +222,7 @@ var(--blue-color); */
      padding: 188px 0;
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
          url(../images/img-name.jpeg), url(../images/people-office.jpg);
-     /* max-width: 1440px; */
+     max-width: 1440px;
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
@@ -653,12 +653,16 @@ var(--blue-color); */
  .list-footer {
      display: flex;
      gap: 16px;
-    
+ }
+ .footer-list-social {
+    margin-right: 692px;
+    margin: 0, auto;
  }
 
  .list-footer-item {
      width: 40px;
-     height: 40px transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     height: 40px; 
+    
 
  }
 
@@ -670,6 +674,7 @@ var(--blue-color); */
      display: flex;
      align-items: center;
      justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .svg-icon-footer {
@@ -692,11 +697,11 @@ var(--blue-color); */
  }
 
  .footer-logo {
-     width: 1440px;
-     /* height: 312px; */
-     margin: 0, auto;
+     /* width: 1440px;
+     height: 312px;
+     margin: 0, auto; */
      font-family: 'Raleway', sans-serif;
-     font-style: normal;
+     /* font-style: normal; */
      font-weight: 800;
      font-size: 18px;
      line-height: 1.17;
