@@ -618,6 +618,7 @@ var(--blue-color); */
  .container-footer {
     width: 1440px;
     margin: 0 auto;
+    align-items: baseline;
     /* padding-left: 15px;
     padding-right: 15px; */
     display: flex;
