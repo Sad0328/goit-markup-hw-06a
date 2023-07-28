@@ -66,9 +66,9 @@ var(--blue-color); */
      margin: 0 auto;
      padding-left: 15px;
      padding-right: 15px;
-     background-repeat: no-repeat;
+     /* background-repeat: no-repeat;
      background-position: center;
-     background-size: cover;
+     background-size: cover; */
 
  }
 
