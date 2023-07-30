@@ -590,10 +590,9 @@ var(--blue-color); */
      justify-content: center;
      color: #8e8f99;
      transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
  }
 
- .list-costumers-link:hover .svg-icon-costumers, 
+ .list-costumers-link:hover, 
  .list-costumers-link:focus .svg-icon-costumers{
      border-color: #404bbf;
      color: #404bbf;
