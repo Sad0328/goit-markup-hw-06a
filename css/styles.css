@@ -593,12 +593,12 @@ var(--blue-color); */
 
  }
 
- .list-costumers-link:hover {
+ .list-costumers-link:hover .svg-icon-costumers {
      border-color: #404bbf;
      color: #404bbf;
  }
 
- .list-costumers-link:focus {
+ .list-costumers-link:focus .svg-icon-costumers{
      border-color: #404bbf;
      color: #404bbf;
  }
