@@ -593,17 +593,17 @@ var(--blue-color); */
 
  }
 
- .list-costumers-link:hover {
+ /* .list-costumers-link:hover {
      border-color: #404bbf;
      color: #404bbf;
      /* cursor: pointer; */
 
- }
+ } */
 
  .list-costumers-link:focus {
     border-color: #404bbf;
     color: #404bbf;
-     /* cursor: pointer; */
+    cursor: pointer;
  }
 
 
