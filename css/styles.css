@@ -593,29 +593,21 @@ var(--blue-color); */
 
  }
 
- .list-costumers-link:hover {
-     border-color: #404bbf;
-     color: #404bbf;
- }
-
- .list-costumers-link:focus {
-     border-color: #404bbf;
-     color: #404bbf;
- }
-
- .svg-icon-costumers {
-     fill: currentColor;
- }
-
- /* .svg-icon-costumers:hover {
+ .list-costumers-link:hover .svg-icon-costumers, 
+ .list-costumers-link:focus .svg-icon-costumers{
      border-color: #404bbf;
      color: #404bbf;
  }
  
- .svg-icon-costumers:focus {
+
+ /* .list-costumers-link:focus {
      border-color: #404bbf;
      color: #404bbf;
  } */
+
+ .svg-icon-costumers {
+     fill: currentColor;
+ }
 
  .container-footer {
      width: 1440px;
