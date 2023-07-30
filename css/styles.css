@@ -598,7 +598,7 @@ var(--blue-color); */
      color: #404bbf;
  }
 
- .list-costumers-link:focus .svg-icon-costumers {
+ .list-costumers-link:focus {
      border-color: #404bbf;
      color: #404bbf;
  }
