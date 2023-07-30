@@ -601,15 +601,15 @@ var(--blue-color); */
  }
 
  .list-costumers-link:focus {
-     border-color: #404bbf;
-     color: #404bbf;
-     cursor: pointer;
+    border-color: #404bbf;
+    color: #404bbf;
+     /* cursor: pointer; */
  }
 
 
- .svg-icon-costumers {
+ /* .svg-icon-costumers {
      fill: #8e8f99;
- }
+ } */
 
  /* .svg-icon-costumers:hover {
      border-color: #404bbf;
