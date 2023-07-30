@@ -222,14 +222,15 @@ var(--blue-color); */
      background-size: cover;
      background-color: var(--title-color);
      padding: 188px 0;
-     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-         url(../images/img-name.jpeg), url(../images/people-office.jpg);
+     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
      max-width: 1440px;
 
 
 
  }
 
+
+ /* url(../images/img-name.jpeg) */
  /* .footer {
     background: var(--title-color);
     padding: 100px 0;
@@ -536,12 +537,12 @@ var(--blue-color); */
 
  .social-connect-item:hover {
      background-color: #404BBF;
-     cursor: pointer;
+     /* cursor: pointer; */
  }
 
  .social-connect-item:focus {
      background-color: #404BBF;
-     cursor: pointer;
+     /* cursor: pointer; */
  }
 
  .svg-icon {
@@ -599,7 +600,7 @@ var(--blue-color); */
      transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
- .list-costumers-link:hover {
+ .list-costumers-link:hover ..svg-icon-costumers {
      border-color: #404bbf;
      color: #404bbf;
      cursor: pointer;
@@ -688,15 +689,15 @@ var(--blue-color); */
 
  .footer-url:hover {
      background-color: #31d0aa;
-     cursor: pointer;
+     /* cursor: pointer; */
 
 
  }
 
  .footer-url:focus {
      background-color: #31d0aa;
-     cursor: pointer;
- }
+     /* cursor: pointer;
+ } */
 
  /* .footer-url:focus .svg-icon-footer {
      background-color: #31d0aa;
