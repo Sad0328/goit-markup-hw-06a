@@ -593,17 +593,17 @@ var(--blue-color); */
 
  }
 
- /* .list-costumers-link:hover {
+.list-costumers-link:hover {
      border-color: #404bbf;
      color: #404bbf;
      
 
- } */
+ }
 
  .list-costumers-link:focus {
     border-color: #404bbf;
     color: #404bbf;
-    cursor: pointer;
+    /* cursor: pointer; */
  }
 
 
@@ -621,11 +621,7 @@ var(--blue-color); */
      color: #404bbf;
  } */
 
- 
-
- 
-
- .container-footer {
+.container-footer {
      width: 1440px;
      margin: 0 auto;
      align-items: baseline;
