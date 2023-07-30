@@ -603,6 +603,7 @@ var(--blue-color); */
  .list-costumers-link:focus {
      border-color: #404bbf;
      color: #404bbf;
+     cursor: pointer;
      /* cursor: pointer; */
  }
 
@@ -1034,6 +1035,7 @@ var(--blue-color); */
  .modal-btn:hover {
      background-color: #404bbf;
      border: none;
+     fill: #ffffff;
 
  }
 
@@ -1041,6 +1043,7 @@ var(--blue-color); */
      background-color: #404bbf;
      border: none;
      cursor: pointer;
+     fill: #ffffff;
  }
 
  .modal-icon {
