@@ -596,7 +596,7 @@ var(--blue-color); */
  /* .list-costumers-link:hover {
      border-color: #404bbf;
      color: #404bbf;
-     /* cursor: pointer; */
+     
 
  } */
 
@@ -607,9 +607,9 @@ var(--blue-color); */
  }
 
 
- /* .svg-icon-costumers {
-     fill: #8e8f99;
- } */
+.svg-icon-costumers {
+    fill: currentColor;
+ }
 
  /* .svg-icon-costumers:hover {
      border-color: #404bbf;
