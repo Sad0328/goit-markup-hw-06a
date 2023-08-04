@@ -1245,7 +1245,7 @@ margin-bottom: 16px;
         
 }
 
-.modal-five-span:hover{
+.modal-five-span:checked{
 background-color:#404bbf;
 border: none;
 fill: #F4F4FD;
