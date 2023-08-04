@@ -1245,7 +1245,7 @@ margin-bottom: 16px;
         
 }
 
-.visually-hidden:checked{
+.visually-hidden:checked + label {
 background-color:#404bbf;
 border: none;
 fill: #F4F4FD;
