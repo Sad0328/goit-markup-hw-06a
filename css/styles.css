@@ -1245,7 +1245,7 @@ margin-bottom: 16px;
         
 }
 
-.visually-hidden:checked + .modal-five-span {
+.visually-hidden:checked + .modal-five-accept .modal-five-span {
 background-color:#404bbf;
 border: none;
 fill: #F4F4FD;
