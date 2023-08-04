@@ -1242,9 +1242,9 @@ margin-bottom: 16px;
         align-items: center;
         justify-content: center;
         fill: transparent;
-        /* background-color:#404bbf;
+        background-color:#404bbf;
         border: none;
-        fill: #F4F4FD; */
+        fill: #F4F4FD;
 }
 .modal-privacy-policy {
     color: #4d5ae5;
