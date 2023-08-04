@@ -1149,14 +1149,13 @@ var(--blue-color); */
     margin-bottom: 8px;
 
 }
-.modal-subtitle-info {
+.modal-subtitle {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color:#8e8f99;
     display: block;
     margin-bottom: 4px;
-   
 
 
 }
