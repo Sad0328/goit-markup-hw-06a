@@ -1237,8 +1237,14 @@ var(--blue-color); */
         align-items: center;
         justify-content: center;
         fill: transparent;
+        background-color:#404bbf;
+        border: none;
+        fill: #F4F4FD;
 }
+.modal-privacy-policy {
+    color: #4d5ae5;
 
+}
 
  .modal-btn {
      position: absolute;
