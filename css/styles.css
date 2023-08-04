@@ -684,11 +684,12 @@ var(--blue-color); */
 }
 .footer-form {
     display: flex;
+    gap: 24px;
   
 }
 
 .footer-form-label {
-    gap: 24px;
+    
 }
 
 .footer-mail {
