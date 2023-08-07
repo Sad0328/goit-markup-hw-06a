@@ -1249,7 +1249,7 @@ margin-bottom: 16px;
         fill: transparent;
         display: flex;
         align-items: center;
-        margin-right: 8px;
+        /* margin-right: 8px; */
     
         
 }
