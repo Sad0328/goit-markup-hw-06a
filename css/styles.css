@@ -1247,6 +1247,10 @@ margin-bottom: 16px;
         align-items: center;
         justify-content: center;
         fill: transparent;
+        display: flex;
+        align-items: center;
+        margin-right: 8px;
+    
         
 }
 
