@@ -1311,9 +1311,9 @@ fill: #F4F4FD;
         letter-spacing: 0.04em;
         color: #ffffff;
         cursor: pointer;
-        margin: center;
+        /* margin: center;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; */
         background-color: #4D5AE5;
         border: none;
         border-radius: 4px;
