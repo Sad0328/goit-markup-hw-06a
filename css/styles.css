@@ -1302,7 +1302,7 @@ fill: #F4F4FD;
  }
 
 .modal-six-button {
-    display: block;
+    /* display: block; */
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
