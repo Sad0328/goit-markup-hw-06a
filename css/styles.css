@@ -645,7 +645,7 @@ var(--blue-color); */
  .svg-icon-costumers {
      fill: currentColor;
  }
-
+/* ------------------------------------------footer---------------------------- */
  .container-footer {
      width: 1158px;
      margin: 0 auto;
@@ -667,7 +667,7 @@ var(--blue-color); */
      background: var(--title-color);
      padding: 100px 0;
      color: #2e2f42;
-     margin-bottom: 72px;
+     /* margin-bottom: 72px; */
 
  }
 .container-footer-main {
@@ -758,6 +758,7 @@ var(--blue-color); */
  .list-footer {
      display: flex;
      gap: 16px;
+     margin-right: 80px;
  }
 
  .footer-list-social {
@@ -1229,7 +1230,7 @@ margin-bottom: 16px;
 
 }
 
-.modal-five-accept {
+.visually-hidden-text {
     font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
@@ -1249,7 +1250,7 @@ margin-bottom: 16px;
         
 }
 
-.visually-hidden:checked + .modal-five-accept .modal-five-span {
+.visually-hidden:checked + .visually-hidden-text .modal-five-span {
 background-color:#404bbf;
 border: none;
 fill: #F4F4FD;
