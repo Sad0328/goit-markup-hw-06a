@@ -1262,6 +1262,7 @@ fill: #F4F4FD;
 
 .modal-privacy-policy {
     color: var(--blue-color, #4D5AE5);
+    text-decoration: underline;
 }
 
  .modal-btn {
