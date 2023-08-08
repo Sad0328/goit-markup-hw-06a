@@ -1220,6 +1220,7 @@ margin-bottom: 16px;
 }
 .modal-textarea:focus {
     border-color: #4D5AE5;
+    fill: #2E2F42;
 }
 
 .modal-five {
