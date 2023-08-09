@@ -11,11 +11,16 @@
         max-width: 734px;
         display: flex;
     }
-        .softskills-item {
-            /* width: calc((100% - 48px) / 2); */
-            width: calc((100% - 24px) / 2);
+    .softskills-list {
+        padding: 0;
+        gap: 72px 24px;
+    }
+
+    .softskills-item {
+        width: calc((100% - 24px) / 2);
         }
+    
+
 }
 
 
-396
