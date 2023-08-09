@@ -1,13 +1,13 @@
 @media screen and (min-width: 428px) {
-    container {
-        max-width: 418px;
+    .container {
+        max-width: 426px;
         display: flex;
     }
 }
 
 
 @media screen and (min-width: 768px) {
-    container {
+    .container {
         max-width: 734px;
         display: flex;
     }
@@ -17,3 +17,4 @@
 }
 
 
+396
