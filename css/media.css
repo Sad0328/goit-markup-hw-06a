@@ -30,7 +30,7 @@
         padding-right: 15px;
     }
          .softskills-item {
-             width: calc((100% - 24px) /4);
+             width: calc((100% - 24px) /3);
          }
         .softskills-list {
             gap: 24px;
