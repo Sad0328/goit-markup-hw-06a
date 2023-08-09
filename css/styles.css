@@ -397,13 +397,13 @@ var(--blue-color); */
 
 
  .softskills-item {
-    font-family: Roboto;
+    /* font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 24px; */
         /* 150% */
-        letter-spacing: 0.32px;
+        /* letter-spacing: 0.32px; */
      /* flex-basis: calc((100% - 48px) / 3); */
      
 
