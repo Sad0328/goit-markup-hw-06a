@@ -11,9 +11,9 @@
         max-width: 734px;
         display: flex;
     }
+        .softskills-item {
+            flex-basis: calc((100% - 48px) / 2);
+        }
 }
 
 
-.softskills-item {
-    flex-basis: calc((100% - 48px) / 2);
-}
