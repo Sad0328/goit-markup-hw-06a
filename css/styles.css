@@ -340,11 +340,12 @@ var(--blue-color); */
     cursor: pointer;
 } */
 
+/* -----------------------------softskils------------------------------------- */
 
  .softskills {
      background: var(--hero-color);
-     padding-top: 120px;
-     padding-bottom: 120px;
+     padding-top: 16px;
+     padding-bottom: 16px;
 
  }
 
@@ -363,8 +364,8 @@ var(--blue-color); */
 
  .softskills-list {
      display: flex;
-     gap: 72px;
      flex-wrap: wrap;
+    gap: 72px;
 
  }
 
@@ -395,6 +396,7 @@ var(--blue-color); */
 
  .softskills-item {
      /* flex-basis: calc((100% - 48px) / 3); */
+     
 
  }
 
@@ -417,6 +419,8 @@ var(--blue-color); */
      /* margin-bottom: 8px; */
 
  }
+
+ /* -------------------------projecr------------------------------------------- */
 
  .projects {
      padding-bottom: 120px;
