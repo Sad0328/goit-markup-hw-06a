@@ -23,14 +23,14 @@
 
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1440px) {
     .container {
-        max-width: 1158px;
+        max-width: 1440px;
         padding-left: 15px;
         padding-right: 15px;
     }
          .softskills-item {
-             width: calc((100% - 24px) /5);
+             width: calc((100% - 48px) /3);
          }
         .softskills-list {
             gap: 24px;
