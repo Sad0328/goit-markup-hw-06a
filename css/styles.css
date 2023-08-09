@@ -1338,3 +1338,8 @@ fill: #F4F4FD;
     display: flex; */
        
 }
+
+@media screen and (min-width: 320px) {
+    container {
+        max-width: 320px;
+    }
