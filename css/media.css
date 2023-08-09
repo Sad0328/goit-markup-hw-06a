@@ -15,5 +15,5 @@
 
 
 .softskills-item {
-    width: calc((100%-88px) / 2);
+    flex-basis: calc((100% - 48px) / 2);
 }
