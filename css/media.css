@@ -12,7 +12,7 @@
         display: flex;
     }
         .softskills-item {
-            flex-basis: calc((100% - 48px) / 2);
+            width: calc((100% - 48px) / 2);
         }
 }
 
