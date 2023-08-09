@@ -1,0 +1,19 @@
+@media screen and (min-width: 428px) {
+    container {
+        max-width: 418px;
+        display: flex;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    container {
+        max-width: 734px;
+        display: flex;
+    }
+}
+
+
+.softskills-item {
+    width: calc((100%-88px) / 2);
+}
