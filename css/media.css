@@ -1,50 +1,120 @@
+.container {
+    padding: 0 15;
+    padding: 0 auto;
+}
 @media screen and (min-width: 428px) {
     .container {
-        max-width: 426px;
-        display: flex;
+        max-width: 428px;
+        
     }
+
+        .list-costumers-item {
+            width: calc((100% - 90px) / 2); 
+            gap: 72px 16px;
+        }
+    /* .bfs-list {
+        display: flex;
+            gap: 72px 24px;
+            flex-wrap: wrap;
+            text-align: center;
+    } */
+
+    /* .team-item {
+        width: 100%;
+    } */
+
+    /* .team-list {
+        flex-direction: column;
+    } */
 }
 
+/* @media screen and (max-width:767px) {
+    .web-defs {
+        margin: 0 auto;
+    } */
+
+/* } */
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 734px;
-        display: flex;
+        max-width: 768px;
+        
     }
+
     .softskills-list {
-        padding: 0;
+        display: flex;
         gap: 72px 24px;
+        flex-wrap: wrap;
     }
 
     .softskills-item {
         width: calc((100% - 24px) / 2);
-        }
-    
+        /* width: 356px; */
+        /* display: list-item;
+        text-align: left; */
+    }
+
+    .team-list {
+        flex-direction: row;
+        gap: 64px 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .team-item {
+        width: 100%;
+        height: auto;
+        width: calc((100% - 24px) / 2);
+           
+    }
+    /* .team-img {
+        width: 100%;
+        height: auto;
+    } */
+    .team-title {
+        text-align: center;
+        /* padding-top: 96px; */
+            }
 
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
     .container {
-        max-width: 1440px;
-        padding-left: 15px;
-        padding-right: 15px;
+        max-width: 1158px;
+        /* padding-left: 15px;
+        padding-right: 15px; */
     }
-         .softskills-item {
-            flex-basis: calc((100% - 48px) /4);
-         }
-        .softskills-list {
-            gap: 24px;
-                  }
+.softskills {
+    padding: 120px 0;
+}
+    .softskills-item {
+        width: calc((100% - 48px) /5);
+    }
 
+    .softskills-list {
+        gap: 72px 24px;
+        flex-wrap: nowrap;
+    }
 
-        .icons-softskills {
-            display: flex;
-                align-items: center;
-                justify-content: center;
-                height: 112px;
-                background-color: #f4f4fd;
-                border-radius: 4px;
-                margin-bottom: 8px
-    
-        }
+    .icons-softskills {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        margin-bottom: 8px
+    }
+    .team-title{
+        /* padding: 0; */
+        
+    }
+    .team-list {
+        
+        gap: 24px;
+    }
+
+    .team-item {
+        width: calc((100% - 24px) / 5);
+    }
 }
