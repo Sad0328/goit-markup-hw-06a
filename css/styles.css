@@ -705,15 +705,16 @@ var(--blue-color); */
      display: flex;
      /* align-items: center; */
      gap: 16px;
+     
      /* margin-right: 80px; */
-     margin-bottom: 72px;
+     /* margin-bottom: 72px;
      margin-left: 110px;
-     margin-right: 110px;
+     margin-right: 110px; */
  }
 
  .footer-list-social {
      /* margin-right: 692px; */
-     margin: 0, auto;
+     margin: 0 auto;
  }
 
  .list-footer-item {
@@ -737,6 +738,7 @@ var(--blue-color); */
 
  .svg-icon-footer {
      fill: #f4f4fd;
+    
 
  }
 
