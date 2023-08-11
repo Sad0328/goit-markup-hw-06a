@@ -142,7 +142,9 @@ var(--blue-color); */
      color: var(--title-color);
  }
 
-
+.icon-menu-hamburger {
+    display: none;
+}
 
  /* ------------------------------------------------------------- */
  /* .header-address-item2 {
@@ -189,7 +191,7 @@ var(--blue-color); */
  .hero-title {
      font-family: 'Roboto', sans-serif;
      /* font-weight: 700; */
-     font-size: 36px;
+     font-size: 56px;
      line-height: 1.11;
      letter-spacing: 0.72px;
      color: var(--hero-color);
@@ -198,11 +200,7 @@ var(--blue-color); */
      /* padding: 472px 188px 472px 292px;  ////////////////////////////////////// */
      /* margin-left: 54px;
      margin-right: 54px; */
-     margin-bottom: px;
-
-
-
-
+     margin-bottom: 72px;
  }
 
  .hero-btn {
