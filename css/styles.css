@@ -365,7 +365,7 @@ var(--blue-color); */
 
  .softskills-list {
      display: flex;
-     gap: 24px;
+     gap: 72px;
     flex wrap: wrap;
 
  }
