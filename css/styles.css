@@ -62,8 +62,7 @@ var(--blue-color); */
  }
 
  .container {
-    width: 100%;
-     max-width: 1158px;
+     width: 1158px;
      margin: 0 auto;
      padding-left: 15px;
      padding-right: 15px;
@@ -365,8 +364,7 @@ var(--blue-color); */
 
  .softskills-list {
      display: flex;
-     gap: 72px;
-    flex wrap: wrap;
+     gap: 24px;
 
  }
 
@@ -380,8 +378,6 @@ var(--blue-color); */
      background-color: #f4f4fd;
      border-radius: 4px;
      margin-bottom: 8px;
-     margin-top: 96px;
-     margin-bottom: 96px;
  }
 
 
@@ -398,7 +394,6 @@ var(--blue-color); */
 
  .softskills-item {
      flex-basis: calc((100% - 48px) / 3);
-     width: 100%;
 
  }
 
